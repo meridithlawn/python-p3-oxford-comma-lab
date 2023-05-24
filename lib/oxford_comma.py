@@ -7,8 +7,9 @@ def oxford_comma(items):
     else:
         return ' '.join(items)
 
-    # if len(items) > 1:
-    #     return " and ".join(items)
-    # elif len(items) > 2:
-    #     return 
-    # return ",".join(items)
+ 
+
+    # matteo's solution
+    # def oxford_comma(items):
+    # if len(items) <= 1: return items[0]
+    # return ", ".join(items[0:-1]) + (f" and {items[-1]}" if len(items) == 2 else f", and {items[-1]}")
